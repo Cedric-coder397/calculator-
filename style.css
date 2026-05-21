@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(17, 16, 16);
+    text-align: center;
+    margin-top: 50px; 
+    font-family: Arial;
+    border-color: aqua;
+}
+
+.calculator{
+    background-color: rgb(43, 46, 46);
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    border-color:purple;
+}
+
+h1{
+    color:white;
+
+}
+input{
+    width: 270px;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+}
+#screen{
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    width: 250px;
+    height: 50px;
+}
+
+button{
+
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 15px;
+    padding: 2px;
+}
+.on{
+    background: gray;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 5rem;
+}
+.mode{
+    background-color: purple;
+}
+
+
+
+/* number buttons */
+.number{
+    background-color: rgba(137, 43, 226, 0.621);
+
+}
+/*scientific .operator*/
+.operator {
+    background-color: orange;
+    color: white;
+
+}
+#equalbtn{
+    background-color: green;
+    color: white;
+
+}
+
+/* emptyscreen button */
+.emptyscreen{
+    background-color: rgb(15, 252, 122);
+
+}
+/* scientific button */
+.scientific{
+    
+    background-color: purple;
+
+}
+/* hover effect */
+button:hover{
+    transform: scale(1.1);
+}
+.top-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+.on-button{
+    width: 60px;
+    height: 40px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius:5px ;
+}
+
+.off{
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    top: 5rem;
+}
